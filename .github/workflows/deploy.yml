@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: canary-10
-      url: https://9ab45c.learnk8s.jamesisme.com 
+      url: https://9ab45c.learnk8s.jamesisme.com
     needs: canary-deployment
     steps:
       - name: Checkout code
